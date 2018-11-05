@@ -9,8 +9,7 @@
 
 <a href="/blogs/<%= @blog.id %>/edit"><input type="submit" class='submit' value='Edit Blog'></a>
 
-<%= link_to "<input type='submit' class='submit' value='Delete Blog'>", root_path, method: :delete %>
+<%=  button_to "Delete Blog",  blog_path(@blog), :class=> 'submit', :method => :delete %>
 
 
 
-<!--  -->
