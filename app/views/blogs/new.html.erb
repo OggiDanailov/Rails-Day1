@@ -1,0 +1,8 @@
+<h1 class='title-main'>Create a new Blog</h1>
+<div class="main-form">
+	<%= form_for @blog, url: {action: "create"} do |f| %>
+	<div class='content'>Title: <%= f.text_field :title, :class => 'field' %></div>
+	<div class='content'>Content: <%= f.text_area :content, :class => 'field' %></div>
+	<%= f.submit "Create Blog", :class => 'submit' %>
+	<% end %>
+</div>

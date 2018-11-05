@@ -1,0 +1,10 @@
+<h1 class='title-main'>Welcome to my Blog!!!</h1>
+
+<div class="main-form">
+<% @blogs.each_with_index do |b, index| %>
+	<div class='content'>
+	 <a class='links' href="/blogs/<%= b.id %>"><%= index + 1 %>. Title: <%=b.title %></a>
+	</div>
+	<div class='content' id='content-bottom'><%= b.content %></div>
+<% end %>	 	
+</div>

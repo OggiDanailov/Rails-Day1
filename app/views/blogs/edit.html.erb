@@ -1,0 +1,10 @@
+<h1 class='title-main'>Edit current Blog</h1>
+<div class="main-form">
+<%= form_for @blog do |f| %>
+<div class='content'>Title: <%= f.text_field :title, :class => 'field' %></div>
+<div class='content'>Content: <%= f.text_area :content, :class => 'field' %></div>
+		<%= hidden_field_tag :blog_id, @blog.id %>
+<%= f.submit "Edit Blog", :class => 'submit' %>
+<% end %>
+</div>
+

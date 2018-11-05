@@ -1,0 +1,16 @@
+
+<div class="main-form">
+<h2 class='title-main'>The Blog!@!!</h2>
+
+<div class='content'> Title: <%=@blog.title %></div>
+<div class='content' id='content-bottom'><%= @blog.content %></div>
+
+</div>
+
+<a href="/blogs/<%= @blog.id %>/edit"><input type="submit" class='submit' value='Edit Blog'></a>
+
+<%= link_to "<input type='submit' class='submit' value='Delete Blog'>", root_path, method: :delete %>
+
+
+
+<!--  -->

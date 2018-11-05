@@ -1,0 +1,66 @@
+.title-main {
+	margin: 30px auto;
+	text-align: center;
+
+}
+
+.links {
+	text-decoration: none;
+	color: black;
+}
+.links:hover {
+	color: purple;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.main-form {
+	border: $main-border;
+	width: 70%;
+	margin: 10px auto;
+	background-color: beige;
+	border-radius: $border_radius;
+}
+
+.content {
+	border: $main-border;
+	border-radius: $border_radius;
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: $main-background-color;
+}
+
+#content-bottom {
+	margin-bottom: 50px;
+}
+
+.field {
+	border: $main-border;
+	background-color: beige;
+	border-radius: $border_radius;
+	text-align: center;
+	padding: 10px;
+}
+
+.submit {
+	border: $main-border;
+	display: block;
+	margin: 20px auto;
+	background-color: $main-background-color;
+	border-radius: $border_radius;
+	padding: 20px;
+}
+
+a .submit  {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
